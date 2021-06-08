@@ -1,7 +1,7 @@
-# venom — training project GloAcademy
-## Implemented by Nataliia Donchenko
+# venom — учебный проект GloAcademy
+## Выполнила: Наталья Донченко
 
-## Technologies used:
+## Используются технологии:
 - HTML
 - CSS
 - JavaScript
