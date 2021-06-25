@@ -97,6 +97,87 @@
     </div>
     <!-- /.container -->
     <img src="img/venom.png" alt="photo: venom" class="venom" />
+
+    <div class="hide-form">
+      <button class="order-trigger">И куда едем?</button>
+      <div class="order-ticket">
+        <form class="order-ticket__form">
+          <fieldset class="order-ticket__form-wrapper">
+            <legend class="order-ticket__title">Заполните форму</legend>
+            <small class="order-ticket__description"
+              >И получите на почту расписание ближайших сеансов</small
+            >
+            <label class="order-ticket__label">
+              <input
+                class="order-ticket__input"
+                type="text"
+                required
+                name="name"
+              />
+              <span class="order-ticket__label-text">Имя</span>
+            </label>
+            <!-- /.odrer-ticket__label -->
+            <label class="order-ticket__label">
+              <input class="order-ticket__input" type="text" name="surname" />
+              <span class="order-ticket__label-text">Фамилия</span>
+            </label>
+            <!-- /.odrer-ticket__label -->
+            <label class="order-ticket__label">
+              <input
+                class="order-ticket__input"
+                type="text"
+                required
+                name="city"
+              />
+              <span class="order-ticket__label-text">Город</span>
+            </label>
+            <!-- /.odrer-ticket__label -->
+            <label class="order-ticket__label">
+              <input class="order-ticket__input" type="email" name="mail" />
+              <span class="order-ticket__label-text">E-mail</span>
+            </label>
+            <!-- /.odrer-ticket__label -->
+            <label class="order-ticket__label">
+              <input
+                class="order-ticket__checkbox"
+                type="checkbox"
+                name="personal"
+              />
+              <span class="order-ticket__checkbox-text"
+                >Я согласен(на) на обработку моих
+                <a href="#">персональных данных</a></span
+              >
+            </label>
+            <!-- /.odrer-ticket__label -->
+            <button>Отправить</button>
+          </fieldset>
+          <!-- /.order-ticket__form-wrapper -->
+          <div class="order-ticket__preloader-wrapper">
+            <video
+              loop
+              muted
+              autoplay
+              playsinline
+              src="img/6.mp4"
+              type="video/mp4"
+            ></video>
+          </div>
+          <fieldset class="order-ticket__thanks-wrapper">
+            <legend>
+              Спасибо <span class="order-ticket__thanks-name">имя</span>
+            </legend>
+            <p>
+              В скором времени Вам на почту будет отправлено письмо с
+              расписанием сеансов в Вашем городе
+            </p>
+          </fieldset>
+        </form>
+        <!-- /.order-ticket__form -->
+      </div>
+      <!-- /.order-ticket -->
+    </div>
+    <!-- /.hide-form -->
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <link
       rel="stylesheet"
